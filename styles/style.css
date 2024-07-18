@@ -25,6 +25,7 @@ body{
 .container{
     width: 1440px;
     margin: 0 auto;
+    margin-bottom: 50px;
     /* background-color:  linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
     
 }
@@ -188,4 +189,27 @@ body{
 
 .banner-card-2 > h3{
     font-size: 1.5rem;
+}
+
+/* --------------------Habit section start--------------------------------------------- */
+
+.habit-section{
+    width: 90%;
+    margin-top: 0 auto;
+    text-align: center;
+
+}
+
+.habit-content{
+    margin-bottom: 20px;
+}
+
+.habit-tittel{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.habit-des{
+    font-size: .9rem;
+    font-weight: 400;
 }
