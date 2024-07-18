@@ -1,8 +1,28 @@
 @media screen and (max-width: 576px){
+    .container{
+        width: 95%;
+        margin: 20px auto;
+    }
     .nav-block{
         display: none;
     }
     .nav-unblock{
         display: block;
+    }
+
+    .banner{
+        width: auto;
+        flex-direction: column;
+    }
+
+    .banner-content, .banner-img{
+        width: 100%;
+    }
+
+    .banner-card-2{
+        width: 136px;
+        height: 70px;
+        top: 35px;
+        right: 9px;
     }
 }

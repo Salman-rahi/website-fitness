@@ -53,6 +53,7 @@ body{
     color: white;
     border: 1px solid rgba(255, 255, 255, 0.505);
     border-radius: 40px;
+    padding: 10px 20px;
     
 
 }
@@ -64,7 +65,7 @@ body{
     background-color: rgba(48, 48, 48, 0.54);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
-    padding: 20px;
+    padding: 15px 20px;
     text-align: center;
     position: absolute;
 }
@@ -81,7 +82,7 @@ body{
 /* ------------------------nav--------------------------------- */
 
 .navbar{
-    width: 1060px;
+    width: 90%;
     margin: 30px auto;
     justify-content: space-between;
     align-items: center;
@@ -121,7 +122,7 @@ body{
 /* --------------------banner----------------------------------- */
 
 .banner{
-    width: 1060px;
+    width: 90%;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
@@ -177,14 +178,14 @@ body{
     align-items: center;
     gap: 10px;
     bottom: 83px;
-    left: -37px;
+    left: 35px;
 }
 
 .banner-card-2{
     top: 138px;
-    right: -34px;
+    right: 34px;
 }
 
 .banner-card-2 > h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
