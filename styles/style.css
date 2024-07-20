@@ -36,6 +36,7 @@ body{
 
 .text-color-secondary{
     color:rgba(255, 255, 255,0.5);
+    opacity: 0.5;
 }
 
 .text-color-third{
@@ -50,11 +51,12 @@ body{
 
 
 .btn-primary{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: white;
     border: 1px solid rgba(255, 255, 255, 0.505);
     border-radius: 40px;
-    padding: 10px 20px;
+    padding: 10px 25px;
+    font-weight: 400;
     
 
 }
@@ -195,7 +197,7 @@ body{
 
 .habit-section{
     width: 90%;
-    margin-top: 0 auto;
+    margin: 0 auto;
     text-align: center;
 
 }
@@ -206,10 +208,106 @@ body{
 
 .habit-tittel{
     font-size: 3rem;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .habit-des{
     font-size: .9rem;
-    font-weight: 400;
+    font-weight: 300;
+    opacity: 0.7;
 }
+
+/* --------------habit images ------------------ */
+.habit-images {
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.habit-img-1 img{
+    border-radius: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.444);
+}
+
+.habit-img-tittel{
+    margin-top: 20px;
+
+}
+
+.habit-img-des{
+    opacity: 0.7;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+/* --------------------------habit style end------------------------------------------------- */
+/* =========================================================================================== */
+
+
+/* --------------------Runs extra miles style start--------------------------------------- */
+
+
+
+.run-extra-miles{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(48, 48, 48, 0.54);
+    border: 1px solid rgba(48, 48, 48, 0.54);
+    border-radius: 10px;
+}
+
+.my{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 150px;
+}
+
+.runs-extra-miles-content{
+    width: 50%;
+    /* border: 1px solid white; */
+}
+
+.runs-extra-miles-img{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+
+.run-extra-miles-tittel{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.run-extra-miles-des{
+    margin-bottom: 10px;
+    font-size: .9rem;
+    font-weight: 300;
+}
+
+.runs-btn{
+    background-color: rgb(230, 83, 60);
+    padding: 10px 30px;
+}
+
+/* 
+.extar-mile-img{
+    width: 60%;
+    margin: auto auto; 
+} */
+
+.runs-extra-miles-img img{
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 100%;
+    height: 250px; 
+}
+
+
+
+

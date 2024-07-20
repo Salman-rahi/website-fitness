@@ -25,4 +25,20 @@
         top: 35px;
         right: 9px;
     }
+
+    .habit-images{
+        flex-direction: column;
+    }
+    .run-extra-miles{
+        width: 90%;
+    }
+    .my{
+        width: 80%;
+        flex-direction: column;
+        padding: 10px;
+        gap: 30px
+    }
+    .runs-extra-miles-content, .runs-extra-miles-img, .runs-btn{
+        width: 100%;
+    }
 }
