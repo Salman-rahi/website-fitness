@@ -250,7 +250,7 @@ body{
 
 
 .run-extra-miles{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     background-color: rgba(48, 48, 48, 0.54);
     border: 1px solid rgba(48, 48, 48, 0.54);
@@ -258,7 +258,7 @@ body{
 }
 
 .my{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
@@ -292,7 +292,7 @@ body{
 
 .runs-btn{
     background-color: rgb(230, 83, 60);
-    padding: 10px 30px;
+    padding: 10px 50px;
 }
 
 /* 
@@ -309,5 +309,230 @@ body{
 }
 
 
+/* --------------------Runs extra miles style End--------------------------------------- */
+/* ===================================================================================== */
+
+/* ----------------------------- Tranining style start--------------------------------- */
+
+.training{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.training-tittel{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.training-des{
+    font-size: 0.9rem;
+    opacity: .5;
+}
+
+.training-img-container{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.training-imges{
+    width: 100%;
+    /* border: 1px solid white; */
+    height: 200px;
+   
+}
+.training-imges{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid white; */
+}
+
+.training-imges-1{
+    width: 25%;
+    height: 200px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+.training-imges-1 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.training-imges-1-des{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(6, 255, 210, 0.5);
+    z-index: 2;
+    position: absolute;
+}
+
+.training-imges-1-des p{
+    top: 150px;
+    left: 35px;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    position: absolute;
+}
 
 
+
+.training-imges-2{
+    width: 50%;
+    height: 200px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+.training-imges-2 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.training-imges-2-des{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.3);
+    z-index: 2;
+    position: absolute;
+}
+
+.training-imges-2-des p{
+    top: 150px;
+    left: 35px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    position: absolute;
+}
+
+.training-imges-3{
+    width: 25%;
+    height: 200px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+.training-imges-3 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.training-imges-3-des{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    position: absolute;
+}
+
+.training-imges-3-des p{
+    top: 150px;
+    left: 35px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    position: absolute;
+}
+/* --------------------------------------------------- */
+
+.training-imges-2-1{
+    width: 45%;
+    height: 200px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+.training-imges-2-1 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.training-imges-2-1-des{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    position: absolute;
+}
+
+.training-imges-2-1-des p{
+    top: 150px;
+    left: 35px;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    position: absolute;
+}
+
+
+
+.training-imges-2-2{
+    width: 20%;
+    height: 200px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+.training-imges-2-2 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.training-imges-2-2-des{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(66, 255, 0, 0.3);
+    z-index: 2;
+    position: absolute;
+}
+
+.training-imges-2-2-des p{
+    top: 150px;
+    left: 35px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    position: absolute;
+}
+
+.training-imges-2-3{
+    width: 35%;
+    height: 200px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+.training-imges-2-3 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.training-imges-2-3-des{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 71, 255, 0.3);
+    z-index: 2;
+    position: absolute;
+}
+
+.training-imges-2-3-des p{
+    top: 150px;
+    left: 35px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    position: absolute;
+}
