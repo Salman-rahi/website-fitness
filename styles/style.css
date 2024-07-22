@@ -85,7 +85,7 @@ body{
 /* ------------------------nav--------------------------------- */
 
 .navbar{
-    width: 90%;
+    width: 80%;
     margin: 30px auto;
     justify-content: space-between;
     align-items: center;
@@ -125,7 +125,7 @@ body{
 /* --------------------banner----------------------------------- */
 
 .banner{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
@@ -250,7 +250,7 @@ body{
 
 
 .run-extra-miles{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     background-color: rgba(48, 48, 48, 0.54);
     border: 1px solid rgba(48, 48, 48, 0.54);
@@ -258,7 +258,7 @@ body{
 }
 
 .my{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
@@ -315,7 +315,7 @@ body{
 /* ----------------------------- Tranining style start--------------------------------- */
 
 .training{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -330,7 +330,7 @@ body{
 }
 
 .training-img-container{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     margin-top: 20px;
 }
@@ -535,4 +535,156 @@ body{
     font-size: 1rem;
     font-weight: 400;
     position: absolute;
+}
+
+/*---------------------------training styles end -----------------------------------*/
+/* ============================================================================== */
+
+
+/* ------------------------Bmi style start-------------------------------------- */
+.bmi{
+    background-color: rgb(34, 34, 34);
+}
+.bit-header{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.bmi-tittel{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.bmi-des{
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+/* ========================================================================================= */
+/* -------------Meet our team section---------------------------------------------- */
+.meetOurTeam-content{
+    width: 40%;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.meetOurTeam-tittel{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.meetOurTeam-des{
+    font-size: .9rem;
+    font-size: 400;
+}
+.abc{
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.meetOurTeam-img{
+    width: 80%;
+    background-color: rgb(34, 34, 34);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.meetOurTeam-img-1{
+    width: 100%;
+
+    position: relative;
+}
+
+.meetOurTeam-img-1 img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+    m
+    /* z-index: 1; */
+}
+
+.meetOurTeam-img-deatils{
+    position: absolute;
+    bottom: 30px;
+    left: 8px;
+}
+
+.img-des{
+   color: rgba(255, 255, 255);
+   opacity: .7;
+}
+
+/* ================================================================================ */
+
+/* -------------------Footer section ---------------------------------------------- */
+
+
+footer{
+  background-color: rgb(34, 34, 34); ;
+}
+
+.footer{
+    width: 80%;
+    margin: 0 auto;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.footer-content{
+    width: 50%;
+}
+
+.footer-tittel{
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    margin-bottom: 20px;
+}
+.fotter-des{
+    font-size: .9rem;
+    font-weight: 400;
+}
+.footer-links-container{
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.footer-links-container{
+    gap: 30px;
+}
+
+.fotter-item{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.fotter-link-tittel{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.fotter-item a{
+    text-decoration: none;
+    
+}
+
+.copy-right{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.copy-right p{
+    padding: 20px 0;
 }
