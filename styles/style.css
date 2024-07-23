@@ -547,9 +547,10 @@ header{
 .bmi{
     background-color: rgb(34, 34, 34);
 }
-.bit-header{
+.bmi-header{
     width: 40%;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .bmi-tittel{
@@ -561,6 +562,91 @@ header{
 .bmi-des{
     font-size: .9rem;
     font-weight: 400;
+}
+
+.bmi-chart{
+    width: 50%;
+}
+
+.bmi-calculetor-tittel{
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+.bmi-calculetor-des{
+    margin-bottom: 20px;
+}
+
+.bmi-content{
+    justify-content: center;
+    align-items: center;
+}
+.bmi-container{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    
+}
+.bmi-content{
+    padding: 30px 0px 30px 0px;
+}
+
+form{
+    margin-top: 50px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+form > input,select{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 8px 15px 8px 20px;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.5)
+}
+
+input::placeholder{
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.from-btn{
+    padding: 10px 40px  10px 40px;
+    background-color: rgb(230, 83, 60);
+    font-weight: 500;
+    font-size: .8rem;
+    margin-top: 30px;
+}
+
+
+/* .last{
+    width: 100%;
+} */
+
+table{
+    margin-top: 30px;
+    border-collapse: collapse;
+    padding-bottom: 20px;
+}
+
+td,tr,th{
+    border: 1px solid white;
+    padding: 5px 10px 5px 15px;
+    text-align: center;
+}
+
+.th{
+    font-size: 1rem;
+    color:rgb(255, 255, 255);
+}
+
+td,tr{
+    font-size: .9rem;
+    color:rgba(255, 255, 255,0.5);
+}
+
+.bmi-calculetor{
+    width: 50%;
 }
 /* ========================================================================== */
 
@@ -750,3 +836,4 @@ footer{
 .copy-right p{
     padding: 20px 0;
 }
+/* ======================================= */

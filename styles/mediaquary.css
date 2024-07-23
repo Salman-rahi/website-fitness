@@ -80,4 +80,28 @@
     .footer-link-right{
         width: 100%;
     }
+
+    .bmi-header{
+        width: 90%;
+    }
+    .bmi-chart{
+        width: 90%;
+    }
+    .bmi-container{
+        width: 90%;
+    }
+    .bmi-content{
+        flex-direction: column;
+    }
+    .bmi-calculetor{
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    .form{
+        gap: 10px;
+    }
+    form > input,select{
+        padding: 5px;
+    }
 }
